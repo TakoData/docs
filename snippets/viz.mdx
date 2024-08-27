@@ -1,0 +1,6 @@
+export const Viz = ({ src, ...props }) => (
+    <>
+        <iframe {...props} src={src} width="100%" className="dark:hidden" frameborder="0"></iframe>
+        <iframe {...props} src={src+'?dark_mode=true'} width="100%" className="hidden dark:block" frameborder="0"></iframe>
+    </>
+)

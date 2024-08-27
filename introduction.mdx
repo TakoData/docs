@@ -1,8 +1,10 @@
 ---
 title: Introduction
-description: 'Welcome to the home of your new documentation'
+description: "Create data visualizations with natural language."
 ---
+import { Viz } from '/snippets/viz.mdx';
 
+{/* 
 <img
   className="block dark:hidden"
   src="/images/hero-light.svg"
@@ -35,37 +37,28 @@ The first step to world-class documentation is setting up your editing environme
   </Card>
 </CardGroup>
 
-## Make it yours
+## Make it yours */}
 
-Update your docs to your brand and add valuable content for the best user conversion.
+<Viz height="500" src="https://trytako.com/embed/XlQU5Q/" />
+
+Tako is an embeddable, composable knowledge graph sourced exclusively from authoritative
+structured data. Our API takes natural language queries or faceted searches as an input and returns iframe URLs that render responsive, interactive visualizations.
 
 <CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
+  <Card title="Collections" icon="layer-group" href="/collections">
+    Residential Real Estate Trends, US Inflation, Energy Commodity Prices
+  </Card>
+  <Card title="Search" icon="magnifying-glass" href="/search">
+    "how has china's gdp and military spending changed since 2000"
+  </Card>
+  <Card title="Suggest" icon="stars" href="/suggest">
+    Tako will suggest charts that fit into a large piece of content
   </Card>
   <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/components/accordion"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
+    title="Bring Your Own Data (BYOD)"
+    icon="database"
     href="https://mintlify.com/customers"
   >
-    Check out our showcase of our favorite documentation
+    Chart your data with Tako
   </Card>
 </CardGroup>
