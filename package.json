@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node prepare.js && mintlify dev",
+    "build": "node prepare.js && mintlify build"
+  },
+  "devDependencies": {
+    "mintlify": "^4.0.215"
+  }
+}

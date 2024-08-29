@@ -12,6 +12,9 @@
         "tags": ["api"],
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -48,6 +51,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -83,6 +89,9 @@
           "required": true
         },
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           }
@@ -127,6 +136,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -150,6 +162,9 @@
         "tags": ["api"],
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -166,6 +181,9 @@
         "tags": ["api"],
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -181,6 +199,9 @@
         "operationId": "api_v1_preview_link_retrieve_2",
         "tags": ["api"],
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           }
@@ -217,6 +238,9 @@
           "required": true
         },
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           }
@@ -260,6 +284,9 @@
           "required": true
         },
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           }
@@ -400,6 +427,9 @@
         "tags": ["api"],
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -462,6 +492,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -504,6 +537,9 @@
           "required": true
         },
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           }
@@ -548,6 +584,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -591,6 +630,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           }
         ],
@@ -614,6 +656,9 @@
         "tags": ["api"],
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           },
           {}
@@ -630,6 +675,9 @@
         "operationId": "api_v1_user_theme_retrieve",
         "tags": ["api"],
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           },
@@ -666,6 +714,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           },
           {}
@@ -682,6 +733,9 @@
         "operationId": "api_v1_user_theme_retrieve_2",
         "tags": ["api"],
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           },
@@ -718,6 +772,9 @@
         },
         "security": [
           {
+            "cookieAuth": []
+          },
+          {
             "tokenAuth": []
           },
           {}
@@ -753,6 +810,14 @@
           },
           "required": true
         },
+        "security": [
+          {
+            "cookieAuth": []
+          },
+          {
+            "tokenAuth": []
+          }
+        ],
         "responses": {
           "200": {
             "content": {
@@ -792,6 +857,9 @@
           "required": true
         },
         "security": [
+          {
+            "cookieAuth": []
+          },
           {
             "tokenAuth": []
           }
@@ -1234,6 +1302,11 @@
       }
     },
     "securitySchemes": {
+      "cookieAuth": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "sessionid"
+      },
       "tokenAuth": {
         "type": "apiKey",
         "in": "header",
@@ -1243,6 +1316,10 @@
     }
   },
   "servers": [
+    {
+      "url": "http://127.0.0.1:8000",
+      "description": "Local Development server"
+    },
     {
       "url": "https://trytako.com",
       "description": "Production server"
