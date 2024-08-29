@@ -44,30 +44,20 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart"]
+      "group": "",
+      "pages": ["introduction"]
     },
     {
-      "group": "Essentials",
+      "group": "Guides",
+      "pages": ["api-reference/getting-started", "api-reference/authentication"]
+    },
+    {
+      "group": "API",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/list-collections",
+        "api-reference/search",
+        "api-reference/suggest",
+        "api-reference/render-data"
       ]
     }
   ],
