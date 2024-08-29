@@ -49,11 +49,12 @@
     },
     {
       "group": "Guides",
-      "pages": ["api-reference/getting-started", "api-reference/authentication"]
+      "pages": ["api-reference/getting-started"]
     },
     {
       "group": "API",
       "pages": [
+        "api-reference/authentication",
         "api-reference/list-collections",
         "api-reference/search",
         "api-reference/suggest",
