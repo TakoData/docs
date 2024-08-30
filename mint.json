@@ -58,7 +58,8 @@
         "api-reference/list-collections",
         "api-reference/search",
         "api-reference/suggest",
-        "api-reference/render-data"
+        "api-reference/render-data",
+        "api-reference/classify"
       ]
     }
   ],
