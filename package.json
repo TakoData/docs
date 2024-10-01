@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node prepare.js && mintlify dev",
-    "build": "node prepare.js && mintlify build"
+    "dev": "mintlify dev",
+    "build": "mintlify build"
   },
   "devDependencies": {
-    "mintlify": "^4.0.215"
+    "mintlify": "^4.0.231"
   }
 }

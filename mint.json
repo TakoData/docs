@@ -15,6 +15,7 @@
       "dark": "#1A1D1F"
     }
   },
+  "openapi": "https://trytako.com/api/v1/schema/?format=json",
   "topbarLinks": [
     {
       "name": "Support",
@@ -57,9 +58,9 @@
         "api-reference/authentication",
         "api-reference/list-collections",
         "api-reference/search",
-        "api-reference/suggest",
-        "api-reference/render-data",
-        "api-reference/classify"
+        "api-reference/search-thread",
+        "api-reference/context",
+        "api-reference/render-data"
       ]
     }
   ],

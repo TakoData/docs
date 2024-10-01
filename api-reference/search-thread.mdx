@@ -1,0 +1,12 @@
+---
+title: 'Search Thread'
+openapi: 'POST /api/v1/search_thread/'
+description: "Use natural language to search for Tako Data Visualizations."
+---
+
+## Notes
+
+* This endpoint executes a Tako Visualization Search using a natural language query. Tako will parse the query and perform a collection and keyword search to assemble a visualization relevant to the query.
+* If the query requests multiple series of data (i.e. “Tesla Stock Price vs Tesla Net Income”), Tako will adjust the chart so the data makes sense. This may necessitate using both a left and right y-axis to visualize data of far different dimensions/magnitudes, or using a percent change since start y-axis when there are many series.
+
+If you have additional questions, please [contact us](https://trytako.com/waitlist/).
